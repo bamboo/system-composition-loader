@@ -1,0 +1,41 @@
+{
+  "name": "system-composition-loader",
+  "version": "0.0.1",
+  "description": "Component loader compatible with system-composition",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bamboo/system-composition-loader.git"
+  },
+  "keywords": [
+    "system",
+    "composition",
+    "component"
+  ],
+  "author": "Rodrigo B. de Oliveira <rbo@acm.org>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bamboo/system-composition-loader/issues"
+  },
+  "homepage": "https://github.com/bamboo/system-composition-loader",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "event-stream": "^3.1.5",
+    "gulp": "^3.8.6",
+    "gulp-mjs": "0.0.6",
+    "gulp-mocha": "^0.5.0",
+    "gulp-plumber": "^0.6.3",
+    "hash-require": "0.0.4",
+    "masakari": "0.0.1"
+  },
+  "dependencies": {
+    "mori": "^0.2.8",
+    "require-all": "0.0.8",
+    "source-map-support": "^0.2.7",
+    "system-composition": "0.0.1",
+    "underscore": "^1.6.0"
+  }
+}
